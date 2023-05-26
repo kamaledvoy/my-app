@@ -1,0 +1,11 @@
+step-1: npx create-next-app@latest
+step-2: npx sb init --builder webpack5
+step-3: npm run storybook
+
+
+
+
+
+https://storybook.js.org/blog/get-started-with-storybook-and-next-js/
+
+https://github.com/RyanClementsHax/storybook-addon-next/blob/main/examples/nextv13/pages/typescript.tsx
