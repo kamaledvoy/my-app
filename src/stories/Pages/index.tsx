@@ -1,4 +1,4 @@
-import Head from "next/head";
+import { Head } from "next/document";
 
 export default function Home() {
   return (
@@ -15,3 +15,18 @@ export default function Home() {
     </div>
   );
 }
+
+// import React from "react";
+
+// const Home: React.FC = () => {
+//   return (
+//     <>
+//       <div className="container">Hello, world!</div>
+//       <div className="scss">
+//         <p>Home Page added</p>
+//       </div>
+//     </>
+//   );
+// };
+
+// export default Home;
